@@ -58,11 +58,11 @@ export default function Calendly() {
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
               <span className="rounded-full bg-purple-500/10 px-3 py-1 text-sm font-semibold leading-6 text-purple-400 ring-1 ring-inset ring-indigo-500/20">
-                What's new
+                Massively scalable
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300 z-20 group">
                 <a href="/changelog" className="cursor-pointer">
-                  Just shipped v1.0
+                  Future application pipeline
                 </a>
                 <ChevronRightIcon
                   className="h-5 w-5 text-gray-500 group-hover:translate-x-1  duration-400"
@@ -72,10 +72,9 @@ export default function Calendly() {
             </a>
           </div>
           <HeroAnimated
-            header="Schedule a call and plan your personalization."
+            header="More brain data equals better performance."
             headerClassName="text-left max-w-5xl text-5xl md:text-6xl tracking-tighter mr-auto lg:text-7xl font-bold font-geist  font-normal text-transparent bg-clip-text bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)] leading-0 md:leading-4  md:pb-0 mt-1"
-            description="Move faster with beautiful, responsive UI components and website
-            templates with modern design, 100% free and open-source."
+            description="The core technology will scale to support an order of magnitude increase in data rate in next generation devices without major architecture changes, making Paradromics uniquely positioned to bring even more powerful new DDI-based technologies to market in the coming years. ‍ If you are a patient or caregiver interested in learning more about current and future applications of Syncade core technology, join the Syncade Community to connect with our clinical team."
             descriptionClassName="mr-auto text-zinc-400 text-left text-lg lg:max-w-2xl py-5"
           ></HeroAnimated>
           <div className=" mt-0 flex items-center gap-x-6">

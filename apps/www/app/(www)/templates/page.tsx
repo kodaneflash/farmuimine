@@ -64,10 +64,9 @@ const Template = async () => {
         <div className="relative z-10">
           <div className="mx-auto space-y-4 text-center text-white max-w-8xl">
             <HeroAnimated
-              header="Collections of beautifully crafted modern website templates "
+              header="Building a direct data interface with the brain that will enable people and improve lives."
               headerClassName="text-center w-full  text-5xl md:text-7xl tracking-tighter mx-auto lg:text-8xl  font-geist font-normal text-transparent bg-clip-text bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)] leading-0 mt-1"
-              description=" A collection of styled and beautifully designed website
-                templates, built with React, Next.js with Tailwind CSS."
+              description="We are building a direct data interface with the brain to provide technology solutions to unmet medical challenges. A revolutionary leap beyond today’s research-grade brain computer interfaces (BCI), our Syncade® Direct Data Interface (DDI) collects neural signals at an industry-leading high data-rate and is designed for long-term daily use."
               descriptionClassName="text-zinc-400 max-w-xl text-sm sm:text-md md:text-lg lg:text-lg mx-auto"
             >
               <div className="flex flex-wrap gap-3 justify-center items-center"></div>

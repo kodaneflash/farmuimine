@@ -140,12 +140,15 @@ export function GridFeatureDemo() {
 
       <div className="custom-screen-lg   relative flex flex-col">
         <div className="max-w-3xl mr-auto  space-y-4 text-left mb-10">
-          <h2 className="pt-16 text-4xl md:text-5xl lg:text-6xl  font-nomral tracking-tighter font-geist bg-gradient-to-tr from-zinc-400/50 via-white to-white/60 bg-clip-text text-transparent">
-            A wide range of templates and components.
+          <h2 className="pt-16 text-4xl md:text-5xl lg:text-6xl  font-normal tracking-tighter font-geist bg-gradient-to-tr from-zinc-400/50 via-white to-white/60 bg-clip-text text-transparent">
+            DDI is the future of brain tech
           </h2>
-          <p className="text-zinc-400">
-            FarmUI offers all the vital building blocks you need to transform
-            your idea into a great-looking startup.
+          <p className="pt-4 text-lg text-zinc-400">
+            A brain computer interface (BCI) gathers neural signals from the
+            brain and translates them into useful digital data. ‍A direct data
+            interface (DDI) is a BCI that senses the action potentials of
+            individual neurons, providing the high resolution and data rate
+            needed for the most transformative, advanced applications.
           </p>
         </div>
         <FUIFeatureSectionWithCards />

@@ -1,5 +1,5 @@
-import { GlareCard } from 'components/GlareCard'
-import React from 'react'
+import { GlareCard } from "components/GlareCard";
+import React from "react";
 
 export default function FUIFeatureSectionWithCards() {
   const features = [
@@ -20,8 +20,8 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Blazingly fast UI',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "Future application pipeline",
+      desc: "While our system will first help motor-impaired people communicate, our massively scalable platform will drive expanding capabilities to enhance the lives of millions of people. With the brain in direct communication with digital devices, we can leverage technology to revolutionize treatments for conditions ranging from sensory and motor deficits to mood disorders.",
     },
     {
       icon: (
@@ -40,8 +40,8 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Dashboard UI ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "Designed for secure, reliable everyday use",
+      desc: "The fully-concealed, implanted system provides complex data handling of brain data with no through-skin ports or wires. A lightweight, unobtrusive wearable provides continuous wireless power and receives data securely using a near-infrared optical link.",
     },
     {
       icon: (
@@ -60,8 +60,8 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Auth Starter UI',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "A fundamental human need",
+      desc: "People with motor impairment caused by ALS, spinal cord injury, or stroke may struggle to speak or use a computer. Many rely on slow, frustrating gaze-tracking systems. The Syncade Direct Data Interface will enable motor-impaired people to communicate and independently use a computer by translating their neural signals into synthesized speech, text, and cursor control.",
     },
     {
       icon: (
@@ -80,8 +80,8 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Team UI',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "Team UI",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
     },
     {
       icon: (
@@ -100,8 +100,8 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Toast & Alert UI ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "Toast & Alert UI ",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
     },
     {
       icon: (
@@ -120,14 +120,13 @@ export default function FUIFeatureSectionWithCards() {
           />
         </svg>
       ),
-      title: 'Hero UI',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: "Hero UI",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
     },
-  ]
+  ];
 
   return (
     <section className="relative pb-14 z-20">
-
       <div className="mx-auto max-w-full text-gray-400 md:px-0">
         <div className="relative mx-auto max-w-2xl sm:text-center">
           <div className="relative z-10">
@@ -139,12 +138,12 @@ export default function FUIFeatureSectionWithCards() {
               congue, nisl eget molestie varius, enim ex faucibus purus.
             </p> */}
           </div>
-          
+
           <div
             className="absolute inset-0 mx-auto h-44 max-w-xs blur-[118px]"
             style={{
               background:
-                'linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)',
+                "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)",
             }}
           ></div>
         </div>
@@ -171,5 +170,5 @@ export default function FUIFeatureSectionWithCards() {
         </div>
       </div>
     </section>
-  )
+  );
 }

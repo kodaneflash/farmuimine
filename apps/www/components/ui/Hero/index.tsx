@@ -54,16 +54,17 @@ export default async function () {
                   </span>{" "}
                   stars on Github
                   <ChevronRight className="inline w-4 h-4 ml-1 group-hover:translate-x-1 duration-300" />
-              </a>
+                </a>
               </Suspense>
             </span>
           </h1>
 
           <HeroAnimated
-            header="Primitive first - well curated UI library. "
+            header="Connecting the Human Brain"
             headerClassName="text-center max-w-lg  sm:max-w-xl md:max-w-xl  lg:max-w-3xl text-5xl md:text-6xl tracking-tighter mx-auto lg:text-8xl font-bold font-geist  font-normal  text-transparent bg-clip-text bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)] leading-0 md:leading-0 md:pb-0 mt-1"
-            description="Move faster with beautiful, responsive UI components and website
-            templates with modern design, 100% free and open-source."
+            description="We are building a high data-rate brain computer interface (BCI) to provide technology solutions for people with neurological 
+            and brain-related conditions. Our first clinical application will help severely motor-impaired people communicate, enabling social connection 
+            and restoring independence."
             descriptionClassName="mx-auto text-zinc-300 text-center text-lg  max-w-lg  sm:max-w-xl md:max-w-xl  lg:max-w-3xl  py-5"
           >
             <Image
@@ -77,11 +78,11 @@ export default async function () {
               <LinkItem
                 href="/templates"
                 variant="shiny"
-              className="z-20 group inline-flex w-full bg-page-gradient justify-center items-center gap-x-2 border border-input hover:border-zinc-600 hover:bg-zinc-950 hover:text-zinc-100 duration-200 sm:w-auto py-4 px-10"
+                className="z-20 group inline-flex w-full bg-page-gradient justify-center items-center gap-x-2 border border-input hover:border-zinc-600 hover:bg-zinc-950 hover:text-zinc-100 duration-200 sm:w-auto py-4 px-10"
 
                 // className="inline-flex w-full  group justify-center items-center bg-zinc-900 bg-page-gradient   border-white/5 border-[1px] sm:w-auto hover:bg-transparent/50  py-4 px-10 "
               >
-                Cooked for you
+                Learn More
                 <ChevronRight className="inline-flex justify-center items-center  w-4 h-4 ml-2 group-hover:translate-x-1 duration-300" />
               </LinkItem>
               <LinkItem
